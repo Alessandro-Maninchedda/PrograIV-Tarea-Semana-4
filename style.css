@@ -1,0 +1,264 @@
+body{
+   overflow-x: hidden;
+}
+
+.bg-light{
+   background-color: #00203FFF !important;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+   color: #ADEFD1FF !important;
+}
+
+.main, .container-2{
+   margin: 0 auto;
+   width: 100%;
+   text-align: center;
+   font-style: italic;
+   color: #00203FFF;
+}
+
+.main{
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+
+.b2, .b2 h1{
+   background-color: #2e3233;
+   color: white;
+}
+
+.container-2{
+   padding: none !important;
+}
+
+.carousel-item>img {
+   max-height: 25rem;
+}
+
+.carousel-item h2{
+   font-size: 7rem;
+}
+
+.carousel-caption{
+   color: #00203FFF;
+}
+
+.container-3{
+   display: inline;
+   flex-direction: row;
+}
+
+.py-5{
+   background-color: #2e3233 !important;
+}
+
+.page-footer{
+   background-color: #00203FFF;
+   color: white;
+}
+
+/* Calculadora */
+
+body{
+   background-color: #2e3233 !important;
+   min-height: 75vh;
+   overflow-x: hidden;
+}
+
+.bg-light-color{
+   background-color: #00203FFF !important;
+}
+
+.nav-link {
+   color: #ADEFD1FF !important;
+}
+
+.page-footer{
+   background-color: #00203FFF;
+   color: white;
+   position: relative;
+   bottom: 0 !important;
+   width: 100%;
+   padding: 3px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#head-calcu{
+   padding: 1em;
+   text-align: center;
+   color: white;
+}
+
+#calculadora {
+   width: 320px;
+   height: 520px;
+   position: relative;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   background-color: #464c50;
+   margin: 0 auto;
+   top: 20px;
+}
+
+#resultado {
+   height: 120px;
+}
+
+#historial {
+   text-align: right;
+   height: 20px;
+   margin: 0 20px;
+   padding-top: 20px;
+   font-size: 15px;
+   color: #bcbec0;
+}
+
+#total {
+   text-align: right;
+   height: 60px;
+   margin: 10px 20px;
+   font-size: 30px;
+   color: #eaedef;
+}
+
+#total p, #resultado p{
+   overflow-y: scroll;
+} 
+
+#total p::-webkit-scrollbar, #resultado p::-webkit-scrollbar{
+   display: none;
+   overflow-y: scroll;
+} 
+
+#botones {
+   height: 400px;
+}
+
+.numero {
+   background-color: #eaedef;
+}
+
+.operador,
+.numero {
+   width: 50px;
+   height: 50px;
+   margin: 15px;
+   float: left;
+   border-width: 0;
+   font-weight: bold;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+button:nth-child(1) {
+   font-size: 20px;
+   background-color: #919191 ;
+}
+
+#calculadora button:nth-child(2) {
+   font-size: 20px;
+   width: 6.5em;
+   background-color: #919191 ;
+}
+
+button:nth-child(3) {
+   font-size: 20px;
+   background-color: #7776c9;
+}
+
+button:nth-child(7) {
+   font-size: 20px;
+   background-color: #5fbe33;
+}
+
+button:nth-child(11) {
+   font-size: 20px;
+   background-color: #da3c3c;
+}
+
+button:nth-child(15) {
+   font-size: 20px;
+   background-color: #d3a715;
+}
+
+button:nth-child(16) {
+   font-size: 20px;
+   width: 6.5em;
+}
+
+button:nth-child(17){
+   font-size: 20px;
+   background-color: #919191;
+   width: 6.5em;
+}
+
+/* About us page */
+
+.container-form{
+   margin: 0 auto;
+   width:75%;
+   text-align: center;
+}
+
+.container-about-us{
+   width: 40%;
+   text-align: center;
+   margin: 2% auto;
+   color: white;
+}
+
+.ConUsMain{
+   text-align: left;
+   padding-left: 7rem;
+   margin-top: 5rem;
+}
+
+.ConUs{
+   color: white !important;
+}
+
+.forms{
+   margin-right: 10%;
+   margin-left: 30%;
+}
+
+/* Style inputs */
+input[type=text], .form{
+   width: 70%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid;
+   border-radius: 4px;
+   box-sizing: border-box;
+   text-align: center;
+ }
+ 
+ #form-submit {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   background-color: #4CAF50;
+   color: #000;
+   font-size: large;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-bottom: 25px;
+   margin-left: 20%;
+   padding: 1em 2rem;
+ }
+ 
+ /* Add a background color to the submit button on mouse-over */
+ #form-submit:hover {
+   background-color: blue;
+   color: white;
+ }
+
+
